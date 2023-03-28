@@ -1,2 +1,3 @@
-var myText = "I am the text from Javascript";
+
+var myText = prompt("Please text to display on page");
 document.write(myText);
