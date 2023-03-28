@@ -1,3 +1,8 @@
-var myString = "Hello Everyone";
-var myName = "Ahmad";
-document.write("".concat(myString, " from ").concat(myName));
+"use strict";
+let myString = "Hello Everyone";
+let myName = "Ahmad";
+document.write(`${myString} from ${myName}`);
+let num1 = 8;
+let num2 = 2;
+let result = num1 * num2;
+console.log(result);
